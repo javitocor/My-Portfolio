@@ -5,7 +5,7 @@ section {
 }
 
 .hero {
-  background: url(../img/macbook-juice.jpg);
+  background: url(../img/nasa.jpg);
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
