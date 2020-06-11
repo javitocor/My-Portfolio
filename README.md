@@ -1,3 +1,10 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
+
+
 # My Portfolio
 My own portfolio where I show my latest works and provide some information about me and what I do.
 This portfolio is a clone of a one page portfolio by Bootstrapious.
