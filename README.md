@@ -1,5 +1,8 @@
 # My Portfolio
 My own portfolio where I show my latest works and provide some information about me and what I do.
+This portfolio is a clone of a one page portfolio by Bootstrapious.
+
+![screenshot](/img/screenshot.png)
 
 # Built With
 - HTML
