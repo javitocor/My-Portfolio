@@ -68,7 +68,7 @@ cd into the folder, find the index.html file and open it
 # 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/javitocor/My-Portfolio/issues).
 
 # Attributions and Credit 🚀
 
