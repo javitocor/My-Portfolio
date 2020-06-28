@@ -32,7 +32,7 @@ This portfolio is a clone of a one page portfolio by Bootstrapious.
 - Bootstrap
 
 # Live Demo
-You can find it [here]( https://javitocor.github.io/My-Portfolio/)
+You can find it [here]( https://javitocor.github.io/My-Portfolio/) :point_left:
 
 # Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -41,7 +41,7 @@ Clone the project unto your local machine
 cd into the folder, find the index.html file and open it
 
 # Prerequisites
-- Get your browsers up to date
+- Get your browsers up to date :muscle:
 
 # Install
 - Install VSCode or any code editor you like
