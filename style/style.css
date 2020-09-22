@@ -144,7 +144,7 @@ h1 {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  border: 8px outset rgb(63 117 197);
+  border: 8px outset #1371d6;
   border-radius: 8px;
   box-shadow: 7px 7px 5px 1px rgba(0, 0, 0, 0.3);
 }
@@ -173,9 +173,8 @@ h1 {
   width: 100%
 }
 
-img {
-  
-  border-radius: 2px
+img {  
+  border-radius: 1px
 }
 
 .content-details {
@@ -226,6 +225,7 @@ img {
 .fa-user,
 .fa-react {
   font-size: 25px;
+  color: #007bff;
 }
 
 @media only screen and (max-width: 850px) {
