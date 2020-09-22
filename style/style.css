@@ -161,7 +161,8 @@ h1 {
   height: 100%;
 }
 
-.content:hover .content-overlay {
+.content:hover .content-overlay,
+.content:active .content-overlay {
   opacity: 1
 }
 
@@ -224,7 +225,7 @@ img {
   font-size: 25px;
 }
 
-@media screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   h1 {
     font-size: 0.8em;
   }
@@ -246,16 +247,18 @@ img {
     height: 26px;
   }
 
+  .content-details h3 {
+    color: #fff;
+    font-size: 1.5em;
+  }
+
   .content-details p {
     color: #fff;
     font-size: 1.1em;
     margin-top: 1.1rem !important;
   }
 
-  .content-details h3 {
-    color: #fff;
-    font-size: 1.5em;
-  }
+
 }
 
 @media screen and (max-width: 645px) {
@@ -283,6 +286,7 @@ img {
     position: fixed;
     text-align: center;
     width: 100%;
+    height: 25px;
   }
 
   .main {
@@ -295,15 +299,20 @@ img {
     display: none;
   }
 
-  .content-details p {
-    color: #fff;
-    font-size: 0.9em;
-    margin-top: 1.1rem !important;
+  .content:hover .content-overlay {
+    opacity: 1;
+    display: block;
   }
 
   .content-details h3 {
     color: #fff;
     font-size: 1.15em;
+  }
+
+  .content-details p {
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 1.1rem !important;
   }
 
 }
