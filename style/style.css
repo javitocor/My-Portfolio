@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .sidenav {
@@ -10,13 +10,13 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: orange;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(72,45,253,1) 95%);
   overflow-x: hidden;
   padding: 0.5rem 1rem 0 0;
 }
 
 #header {
-  background-color: orange;
   background-attachment: fixed;
   background-image: url('about.jpg');
   background-position: top left;
@@ -33,7 +33,15 @@ body {
 }
 
 .main {
-  margin-left: 35%; /* Same as the width of the sidenav */
+  margin-left: 35%;
+}
+
+#main {
+  background-color: rgb(233, 236, 239);
+}
+
+section {  
+  background-color: white;
 }
 
 strong {
