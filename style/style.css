@@ -46,12 +46,12 @@ section {
 
 strong {
   color: white;
-  font-size: 1.35em;
+  font-size: 1.6em;
 }
 
 h1 {
   color: white;
-  font-size: 0.95em;
+  font-size: 1em;
   line-height: 1.75em;
   margin: 0;
 }
@@ -222,4 +222,61 @@ img {
 .fa-user,
 .fa-react {
   font-size: 25px;
+}
+
+@media screen and (max-width: 850px) {
+  h1 {
+    font-size: 0.8em;
+  }
+  strong {
+    font-size: 1.35em;
+  }
+  .fa-twitter,
+.fa-github,
+.fa-linkedin,
+.fa-angellist,
+.fa-file {
+  font-size: 16px;
+}
+.social-link {
+  width: 26px;
+  height: 26px;
+}
+}
+
+@media screen and (max-width: 645px) {
+  .sidenav {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    height: 195px;
+  }
+  #header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    height: 195px;
+    justify-content: flex-start !important;
+  }
+
+  #footer {
+    top: 155px;
+    position: fixed;
+    text-align: right;
+    width: 65%;
+  }
+
+  .main {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 400px;
+  }
+
+  .copyright {
+    display: none;
+  }
 }
