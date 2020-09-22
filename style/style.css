@@ -245,6 +245,17 @@ img {
     width: 26px;
     height: 26px;
   }
+
+  .content-details p {
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 1.1rem !important;
+  }
+
+  .content-details h3 {
+    color: #fff;
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (max-width: 645px) {
