@@ -228,20 +228,23 @@ img {
   h1 {
     font-size: 0.8em;
   }
+
   strong {
     font-size: 1.35em;
   }
+
   .fa-twitter,
-.fa-github,
-.fa-linkedin,
-.fa-angellist,
-.fa-file {
-  font-size: 16px;
-}
-.social-link {
-  width: 26px;
-  height: 26px;
-}
+  .fa-github,
+  .fa-linkedin,
+  .fa-angellist,
+  .fa-file {
+    font-size: 16px;
+  }
+
+  .social-link {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 @media screen and (max-width: 645px) {
@@ -253,6 +256,7 @@ img {
     top: 0;
     height: 195px;
   }
+
   #header {
     width: 100%;
     position: fixed;
