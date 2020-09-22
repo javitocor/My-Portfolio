@@ -10,8 +10,8 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(72,45,253,1) 95%);
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(72, 45, 253, 1) 95%);
   overflow-x: hidden;
   padding: 0.5rem 1rem 0 0;
 }
@@ -40,12 +40,12 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(72,45,253,1) 95%);
   background-color: rgb(233, 236, 239);
 }
 
-section {  
+section {
   background-color: white;
 }
 
 strong {
-  color: white;  
+  color: white;
   font-size: 1.35em;
 }
 
@@ -99,7 +99,8 @@ h1 {
   font-size: 0.8rem;
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover,
+.social-link:focus {
   color: #fff;
   text-decoration: none;
 }
