@@ -267,16 +267,27 @@ img {
     top: 155px;
     position: fixed;
     text-align: right;
-    width: 65%;
+    width: 67%;
   }
 
   .main {
     margin-left: 0;
     width: 100%;
-    margin-top: 400px;
+    margin-top: 195px;
   }
 
   .copyright {
     display: none;
   }
+
+  .content-details p {
+    color: #fff;
+    font-size: 0.9em;
+  }
+
+  .content-details h3 {
+    color: #fff;
+    font-size: 1.4em;
+  }
+
 }
