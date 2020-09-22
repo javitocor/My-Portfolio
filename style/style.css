@@ -266,8 +266,8 @@ img {
   #footer {
     top: 155px;
     position: fixed;
-    text-align: right;
-    width: 69%;
+    text-align: center;
+    width: 100%;
   }
 
   .main {
