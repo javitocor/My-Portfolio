@@ -283,11 +283,12 @@ img {
   .content-details p {
     color: #fff;
     font-size: 0.9em;
+    margin-top: 1.1rem !important;
   }
 
   .content-details h3 {
     color: #fff;
-    font-size: 1.4em;
+    font-size: 1.15em;
   }
 
 }
