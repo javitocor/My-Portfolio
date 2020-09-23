@@ -228,6 +228,19 @@ img {
   color: #007bff;
 }
 
+.about-text p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.links {text-align: right;}
+
+.links a {
+  color: white;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
 @media only screen and (max-width: 850px) {
   h1 {
     font-size: 0.8em;
@@ -264,7 +277,7 @@ img {
 
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 768px) {
   .sidenav {
     width: 100%;
     position: fixed;
@@ -277,19 +290,21 @@ img {
   #header {
     width: 100%;
     position: fixed;
-    text-align: center;
+    text-align: left;
     z-index: 1;
     top: 0;
     height: 195px;
     justify-content: flex-start !important;
+    padding-left: 15px;
   }
 
   #footer {
     top: 155px;
     position: fixed;
-    text-align: center;
+    text-align: left;
     width: 100%;
     height: 25px;
+    padding-left: 15px;
   }
 
   .main {
