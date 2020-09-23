@@ -241,6 +241,7 @@ img {
   padding-right: 5px;
 }
 
+
 @media only screen and (max-width: 850px) {
   h1 {
     font-size: 0.8em;
@@ -333,4 +334,10 @@ img {
     margin-top: 1.1rem !important;
   }
 
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    display: grid;
+  }
 }
