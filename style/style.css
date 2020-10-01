@@ -43,6 +43,10 @@ section {
   background-color: white;
 }
 
+.projectLinks {
+  display: none;
+}
+
 strong {
   color: white;
   font-size: 1.6em;
@@ -372,5 +376,26 @@ img {
 
   .main {
     margin-top: 65px;
+  }
+
+  .projectLinks {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    font-size: 0.7rem;
+  }
+
+  .projectLinks ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.5);
+    text-decoration: none;
+    margin-bottom: 0.55rem;
+    padding: 0.3rem;
+  }
+
+  .projectLinks ul li a{
+    color: #1371d6;
   }
 }
