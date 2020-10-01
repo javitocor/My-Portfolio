@@ -231,6 +231,10 @@ img {
   color: #007bff;
 }
 
+#about {
+  background-color: rgb(233, 236, 239);
+}
+
 .about-text p {
   font-size: 18px;
   font-weight: 500;
@@ -249,6 +253,13 @@ img {
   text-decoration: none;
 }
 
+label {
+  color: #007bff;
+}
+
+.drop {
+  display: none;
+}
 
 @media screen and (max-width: 1024px) {
   h1 {
@@ -313,7 +324,7 @@ img {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  
   .sidenav {
     display: none;
   }
@@ -369,5 +380,11 @@ img {
 
   .projectLinks ul li a{
     color: #1371d6;
+    font-size: 0.8rem;
   }
+
+  .drop {
+    display: block;
+  }
+
 }
