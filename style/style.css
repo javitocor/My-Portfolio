@@ -255,6 +255,7 @@ img {
 
 label {
   color: #007bff;
+  font-weight: bolder;
 }
 
 .drop {
