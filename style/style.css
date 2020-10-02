@@ -176,7 +176,7 @@ h1 {
   width: 100%
 }
 
-img {  
+img {
   border-radius: 1px
 }
 
@@ -258,7 +258,8 @@ label {
   font-weight: bolder;
 }
 
-.cv_link {
+.cv_link,
+.but {
   color: black;
 }
 
@@ -271,6 +272,7 @@ label {
     font-size: 1em;
     height: 100px;
   }
+
   .sidenav {
     width: 100%;
     position: fixed;
@@ -329,10 +331,11 @@ label {
 
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {
   .sidenav {
     display: none;
   }
+
   #navbar {
     display: block;
     position: fixed;
@@ -383,7 +386,7 @@ label {
     padding: 0.3rem;
   }
 
-  .projectLinks ul li a{
+  .projectLinks ul li a {
     color: #1371d6;
     font-size: 0.8rem;
   }
