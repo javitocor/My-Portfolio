@@ -254,8 +254,12 @@ img {
 }
 
 label {
-  color: #007bff;
+  color: black;
   font-weight: bolder;
+}
+
+.cv_link {
+  color: black;
 }
 
 .drop {
