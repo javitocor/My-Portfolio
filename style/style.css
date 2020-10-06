@@ -254,13 +254,13 @@ img {
 }
 
 label {
-  color: black;
+  color:  #007bff;
   font-weight: bolder;
 }
 
 .cv_link,
 .but {
-  color: black;
+  color: #007bff;
 }
 
 .drop {
